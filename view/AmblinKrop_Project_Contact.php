@@ -17,7 +17,7 @@
 ?>
 
 <html>
-<?php include 'head.php'?>
+<?php include 'Head.php'?>
 <body>
 	<ul id = "ulNav">
 		<li class = "liNav" ><a class="active" href="AmblinKrop_Project_Homepage.php">Home</a></li>

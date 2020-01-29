@@ -87,7 +87,7 @@
 				}
 			?>
 		</table>
-		<a id ="csvLink" href="UploadNeighborsCSV.php">Add users through CSV file</a>
+		<a id ="csvLink" href="UploadUsersCSV.php">Add users through CSV file</a>
 		<a id = 'reloadButton' href="AmblinKrop_Project_AdminUsers.php">reload</a>
 	</form>
 

@@ -65,10 +65,11 @@
 	</ul>
 
   <div class="tinyFormBox">
-    <h2> Upload neighbor CSV file </h2>
+    <h2> Upload users CSV file </h2>
       <form action="UploadNeighborsCSV.php" method="post" enctype="multipart/form-data">
         <p>Select file</p>
         <input type="file" name="fileToUpload" id="fileToUpload" accept=".csv"/>
+        <p id = "criteriaCSV"> required columns: [email, firstName, lastName, birthDate, townName] </p>
         <input id = "submitCSV" type="submit" name="submit" />
       </form>
   </div>
