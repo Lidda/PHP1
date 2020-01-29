@@ -7,14 +7,12 @@
 	} */
   $tweets = $twitterAPI->GetTweets();
 	session_start();
+
 ?>
 
 
 <html>
-<head>
-	<link rel = "stylesheet" type = "text/css" href = "AmblinKrop_Project.css" />
-
-</head>
+ <?php include 'Head.php'?>
 <body>
 	<ul id = "ulNav">
 		<li class = "liNav selected"><a class="active" href="AmblinKrop_Project_Homepage.php">Home</a></li>

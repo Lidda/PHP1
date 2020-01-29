@@ -32,10 +32,7 @@
 ?>
 
 <html>
-<head>
-	<link rel = "stylesheet" type = "text/css" href = "AmblinKrop_Project.css" />
-	<link rel = "icon" type = "image/png" href = "favicon.png">
-</head>
+<?php include 'Head.php'?>
 <body>
 	<ul id = "ulNav">
 		<li class = "liNav" ><a class="active" href="AmblinKrop_Project_Homepage.php">Home</a></li>

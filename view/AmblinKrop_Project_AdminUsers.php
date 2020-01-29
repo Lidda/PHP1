@@ -23,10 +23,7 @@
 ?>
 
 <html>
-<head>
-	<link rel = "stylesheet" type = "text/css" href = "AmblinKrop_Project.css" />
-
-</head>
+<?php include 'Head.php'?>
 <body>
 	<ul id = "ulNav">
 		<li class = "liNav" ><a class="active" href="AmblinKrop_Project_Homepage.php">Home</a></li>
@@ -90,6 +87,7 @@
 				}
 			?>
 		</table>
+		<a id ="csvLink" href="UploadNeighborsCSV.php">Add users through CSV file</a>
 		<a id = 'reloadButton' href="AmblinKrop_Project_AdminUsers.php">reload</a>
 	</form>
 

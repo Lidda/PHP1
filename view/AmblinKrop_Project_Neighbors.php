@@ -18,10 +18,7 @@
 ?>
 
 <html>
-<head>
-	<link rel = "stylesheet" type = "text/css" href = "AmblinKrop_Project.css" />
-
-</head>
+<?php include 'Head.php'?>
 <body>
 		<?php include "NavBar.php" ?>
 

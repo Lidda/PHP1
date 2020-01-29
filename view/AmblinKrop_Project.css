@@ -1,7 +1,7 @@
 body {
 	background-color: #ffd1dc;
 	background-image: url("resources/acnl_bg.png");
-    background-repeat:repeat;
+  background-repeat:repeat;
 	font-family: roboto;
 	margin: 0;
 	height: 100%;
@@ -34,6 +34,19 @@ a:hover {
 	cursor: pointer;
 	font-size: 18;
 	display: inline-block;
+}
+
+.tinyFormBox {
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 2%;
+	width: 20%;
+	height: 35%;
+	min-height: 150px;
+	margin: 0 auto;
+	margin-top: 10%;
+	padding: 2%;
+	font-size: 20;
 }
 
 #homeBox {
@@ -244,7 +257,7 @@ input[type=submit] {
 #reloadButton, #addNeighborsButton {
 	width: 16%;
 	padding: .5%;
-	margin-top: 5%;
+	margin-top: 1%;
 	text-align: center;
 	float: right;
 	background-color: #ffd1dc;
@@ -262,6 +275,7 @@ input[type=submit] {
 	border: 1px solid #ccc;
 	border-radius: 2%;
 	min-height: 500px;
+	height: 60%;
 	margin: 0 auto;
 	margin-top: 3%;
 	margin-bottom: 3%;
@@ -302,6 +316,7 @@ input[type=submit] {
 
 .searchForm table {
 	margin-top: 2%;
+	margin-bottom: 4%;
 	border-collapse: collapse;
 	border-width: 3px;
 	width: 100%;
@@ -401,8 +416,9 @@ input[type=submit] {
 
 #csvLink {
 	font-size: 30;
-	margin-top: 1%;
+	margin-top: 2%;
 	color: black;
+	text-decoration: underline;
 }
 
 /* MY TOWN PAGE */
@@ -429,7 +445,6 @@ input[type=submit] {
 #mayorPicBlock {
 	width: 15%;
 	margin-left: 40%;
-	background-color: red;
 }
 
 /* upload img */
@@ -437,4 +452,8 @@ input[type=submit] {
 
 #submitImg {
 	margin-top: 10%;
+}
+
+#submitCSV {
+	margin-top: 15%;
 }

@@ -36,9 +36,7 @@
 ?>
 
 <html>
-<head>
-	<link rel = "stylesheet" type = "text/css" href = "AmblinKrop_Project.css" />
-</head>
+<?php include 'Head.php'?>
 <body>
 	<ul id = "ulNav">
 		<li class = "liNav" ><a class="active" href="AmblinKrop_Project_Homepage.php">Home</a></li>
@@ -55,9 +53,9 @@
 		?>
 	</ul>
 
-	<div id = "smallFormBox">
+	<div class = "tinyFormBox">
 		<h2> Upload mayor pic </h2>
-    <form id="selectImgTag"= action="AmblinKrop_Project_UploadMayorPic.php" method="post" enctype="multipart/form-data">
+    <form id="selectImgTag" action="AmblinKrop_Project_UploadMayorPic.php" method="post" enctype="multipart/form-data">
         <p >Select image to upload: </br></p>
         <input type="file" name="fileToUpload" id="fileToUpload"></br>
         <input id="submitImg" type="submit" value="Upload Image" name="submit" >
