@@ -6,7 +6,7 @@
 	define ('DB_PASSWORD', 'oY2XsbrxON');
 	define ('DB_DB', 's632005_Project1');
 	*/
-
+ 
 	define ('DB_HOST', 'localhost');
 	define ('DB_USER', 'root');
 	define ('DB_PASSWORD', '');

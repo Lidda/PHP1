@@ -52,7 +52,7 @@
 
 
 	<?php echo "<h2 id='townName'>$townName Neighbors</h2>
-				 <a href = AmblinKrop_Project_UploadMayorPic.php> <img id = 'mayorPic' src = $mayorPic></img> </a>" ?>
+				 <a href = AmblinKrop_Project_UploadMayorPic.php> <img id = 'mayorPic' src = '$mayorPic?".time()."'></img> </a>" ?>
 	<div class = "neighborsTable neighborsTableFav">
 
         <table>
@@ -86,6 +86,7 @@
 			?>
 		</table>
 		<a id = 'addNeighborsButton' href="AmblinKrop_Project_Neighbors.php">add neighbors</a>
+		<a id = 'exportPDFButton' href="MyTownPDF.php"><b>Export neighbors pics</br>+ barcode</b></a>
 	</div>
 
 

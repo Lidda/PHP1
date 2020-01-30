@@ -52,7 +52,8 @@ a:hover {
 #homeBox {
 	background-color: white;
 	width: 30%;
-	padding: 5% 1%;
+	height: 28%;
+	padding: 3% 1%;
 	font-size: 20;
 	text-align: center;
 	border-radius: 10px;
@@ -63,32 +64,11 @@ a:hover {
 	margin-left: 15%;
 }
 
-#twitterFeedBox {
-	background-color: white;
-	width: 30%;
-	height: 50%;
-	padding: 1%;
-	font-size: 20;
-	text-align: center;
-	border-radius: 10px;
-	border: 2px solid #ffd1dc;
-	display:inline-block;
-	overflow: auto;
-	float: right;
-	margin-top: 10%;
-	margin-right: 15%;
-}
-
-#tweetBox {
-	background-color: white;
-	width: 80%;
-	margin-left: 10%;
-	padding: 1%;
-	margin-top: 2%;
-	font-size: 15;
-	text-align: center;
-	border-radius: 10px;
-	border: 2px solid #ffd1dc;
+#donateButton {
+	margin-top: 1%;
+	width: 70%;
+	margin-left: 15%;
+	display: block;
 }
 
 h2{
@@ -122,6 +102,11 @@ input[type=submit] {
 	cursor: pointer;
 	font-weight: bold;
 	font-size: 20;
+}
+
+input[type=submit]:hover {
+	background-color: #ff85a2;
+	transition: 0.5s;
 }
 
 
@@ -189,6 +174,39 @@ input[type=submit] {
 	color: #ffd1dc;
 }
 
+#twitterFeedBox {
+	background-color: white;
+	width: 30%;
+	height: 50%;
+	padding: 1%;
+	font-size: 20;
+	text-align: center;
+	border-radius: 10px;
+	border: 2px solid #ffd1dc;
+	display:inline-block;
+	overflow: auto;
+	float: right;
+	margin-top: 10%;
+	margin-right: 15%;
+}
+
+#tweetBox {
+	background-color: white;
+	width: 80%;
+	margin-left: 10%;
+	padding: 1%;
+	margin-top: 2%;
+	font-size: 15;
+	text-align: center;
+	border-radius: 10px;
+	border: 2px solid #ffd1dc;
+}
+
+#donateForm {
+	width: 10%;
+	float: left;
+	background-color: white;
+}
 /*CONTACT PAGE*/
 
 .formBox {
@@ -254,7 +272,7 @@ input[type=submit] {
 }
 
 /*SEARCH*/
-#reloadButton, #addNeighborsButton {
+#reloadButton, #addNeighborsButton{
 	width: 16%;
 	padding: .5%;
 	margin-top: 1%;
@@ -268,6 +286,13 @@ input[type=submit] {
 	font-weight: bold;
 	font-size: 20;
 	text-decoration: none;
+}
+
+#exportPDFButton{
+	margin-right: 2%;
+	width: 18%;
+	color:  #ffd1dc;
+	font-size: 20;
 }
 
 .searchForm {
@@ -388,6 +413,7 @@ input[type=submit] {
 	margin-top: 5%;
 	margin-bottom: 3%;
 	padding: 2%;
+	padding-bottom: 5%;
 
 }
 

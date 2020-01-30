@@ -1,6 +1,6 @@
 <?php
-	require_once '../Model/User.php';
-	require_once 'ConnectionDAL.php';
+	require_once dirname(__FILE__).'/../Model/User.php';
+	require_once dirname(__FILE__).'/ConnectionDAL.php';
 
 	class UserDAL {
 		private $connection;
@@ -81,6 +81,9 @@
 				break;
 			case "registeredafter": //finds all users registered after entered date
 				$sql = $baseQuery."WHERE users.registrationDate > '$searchTerm'";
+				break;
+			case "isactive": //finds all users registered after entered date
+				$sql = $baseQuery."WHERE users.isActive = '$searchTerm'";
 				break;
 			}
 

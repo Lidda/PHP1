@@ -1,5 +1,5 @@
 <?php
-	require_once '../DAL/UserDAL.php';
+	require_once dirname(__FILE__).'/../DAL/UserDAL.php';
 
 	class UserLogic {
 		private $userDAL;

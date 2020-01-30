@@ -20,7 +20,7 @@
 <html>
 <?php include 'Head.php'?>
 <body>
-		<?php include "NavBar.php" ?>
+		<?php include "Navbar.php" ?>
 
     <form id = 'neighborSearchForm' action="AmblinKrop_Project_Neighbors.php" method="get">
 		<h2> Search Neighbors </h2>

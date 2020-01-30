@@ -57,7 +57,7 @@
 		<h2> Upload mayor pic </h2>
     <form id="selectImgTag" action="AmblinKrop_Project_UploadMayorPic.php" method="post" enctype="multipart/form-data">
         <p >Select image to upload: </br></p>
-        <input type="file" name="fileToUpload" id="fileToUpload"></br>
+        <input type="file" name="fileToUpload" id="fileToUpload" accept=".png"></br>
         <input id="submitImg" type="submit" value="Upload Image" name="submit" >
     </form>
 	</div>

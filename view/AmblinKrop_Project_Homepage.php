@@ -29,23 +29,25 @@
 		?>
 	</ul>
 
-	<div id = "homeBox">
-		Welcome to my website. </br>
-		Here you can find all the neighbor info from <i>Animal Crossing - New Leaf</i>
-	</div>
+	<form id="homeBox" action="Payment/Pay.php" method="post">
+		This website contains all the neighbor info from </br> <i>Animal Crossing - New Leaf</i> </br></br>
+		Add them to your favourites to keep track of</br>dreamies and who you have in your town!</br></br></br>
+		<input  id="donateButton" type="submit" value = "FUND THIS PROJECT" />
+	</form>
+
 
 	<div id = "twitterFeedBox">
 		Tweets on ACNL
 		<?php
-		foreach($tweets as $tweet){
-			echo
-			'<div id ="tweetBox">
-				<p>Created at: '.$tweet["created_at"].' </p>
-				<p>Username: '.$tweet["user"]["screen_name"].'</p>
-				<p>Tweet: '.$tweet["text"].'</p>
-				<p> </p></br>
-			</div>';
-		}
+			foreach($tweets as $tweet){
+				echo
+				'<div id ="tweetBox">
+					<p>Created at: '.$tweet["created_at"].' </p>
+					<p>Username: '.$tweet["user"]["screen_name"].'</p>
+					<p>Tweet: '.$tweet["text"].'</p>
+					<p> </p></br>
+				</div>';
+			}
 		?>
 	</div>
 
